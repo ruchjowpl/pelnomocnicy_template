@@ -1,10 +1,7 @@
 var http = require('http');
 var jsreport = require('jsreport');
 var fs = require('fs');
-
 var request = require('request'),
-    username = "john",
-    password = "1234",
     url = "https://pelnomocnicy.apispark.net/v1/pelnomocnicies?$size=1000";
 //https://037fc8c9-9375-46e5-a209-e19808257c38:0a3910ad-8070-4f55-8a88-6004bf507d9c" + 
 
@@ -34,4 +31,4 @@ http.createServer(function (req, res) {
 );
 
 
-}).listen(1337, '127.0.0.1');
+}).listen(80, '127.0.0.1');

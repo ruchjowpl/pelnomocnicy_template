@@ -11,4 +11,7 @@
     "jsreport": ">= 0.8.1",
     "request": ">= 2.60.0"
   }
+   "scripts": {
+  "start": "node run.js"
+  }
 }

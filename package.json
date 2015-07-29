@@ -9,9 +9,10 @@
   },
   "dependencies": {
     "jsreport": ">= 0.8.1",
-    "request": ">= 2.60.0"
+    "request": ">= 2.60.0",
+    "url-parse": "~1.0.2"
   },
-   "scripts": {
-  "start": "node run.js"
+  "scripts": {
+    "start": "node run.js"
   }
 }
